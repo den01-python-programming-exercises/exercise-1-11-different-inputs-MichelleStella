@@ -8,10 +8,10 @@ def main():
     x3 = float(input())
     print("Give a boolean:")
     x4 = bool(input())
-    print("You gave the string"+x1)
-    print("You gave the integer"+x2)
-    print("You gave the float"+x3)
-    print("You gave the boolean"+x4)
+    print("You gave the string"+str(x1))
+    print("You gave the integer"+str(x2))
+    print("You gave the float"+str(x3))
+    print("You gave the boolean"+str(x4))
 
 if __name__ == '__main__':
     main()
